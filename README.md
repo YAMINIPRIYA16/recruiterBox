@@ -1,4 +1,4 @@
-# recruiterBox
+# RecruiterBox
 
 Test cases to be covered at different levels of testing :
 
@@ -11,7 +11,7 @@ Test cases to be covered at different levels of testing :
 
 # Integration tests
 
-# # Mocking responses of the API
+# Mocking responses of the API
 
 -   verify whether all the items are listed as per the API response body.
 
@@ -38,7 +38,7 @@ Test cases to be covered at different levels of testing :
 -   Verify whether the user is able to check all the items when clicked on the down arrow present on the text entering field.
 
 
-How to run test?
+# How to run test?
 - npm 
 - npm test
 - cypress will open click on the spec file to run it.
