@@ -1,0 +1,6 @@
+{
+    "baseUrl": "http://todomvc.com/examples/react/#/",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 4000,
+    "pageLoadTimeout": 150000
+}
