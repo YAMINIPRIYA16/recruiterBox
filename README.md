@@ -1,6 +1,6 @@
 # RecruiterBox
 
-Test cases to be covered at different levels of testing :
+Test cases to be covered at different levels of testing
 
 # Unit tests:
 
