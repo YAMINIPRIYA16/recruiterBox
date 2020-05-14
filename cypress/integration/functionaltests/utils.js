@@ -31,5 +31,8 @@ export class Utils {
     getDbclick(el) {
         cy.get(el).dblclick();
     }
+    visitPage(url) {
+        cy.visit(url);
+    }
 }
 export default Utils;

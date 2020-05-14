@@ -56,13 +56,19 @@ context('Window', () => {
     });
 
     it('should test whether the user is able to see the items even after the refresh of page.', () => {
-        cy.visit('/');
+        utils.visitPage('/');
         utils.containsShould(todoObjects.newTodo, 'not.be.visible');
     });
     it('should test whether close button is present in the item and clicking on it removes the item', () => {
         todopage.createNewTodo();
         utils.containsClick(todoObjects.activeTab);
         utils.getClick(todoObjects.closeButton);
+        utils.containsShould(todoObjects.itemName, 'not.be.visible');
+    });
+    it('should test  whether the user is able to check all the items when clicked on the down arrow present on the text entering field.', () => {
+        todopage.createNewTodo();
+        todopage.createNewTodo();
+        utils.getClick(todoObjects.toggleAll);
         utils.containsShould(todoObjects.itemName, 'not.be.visible');
     });
 });

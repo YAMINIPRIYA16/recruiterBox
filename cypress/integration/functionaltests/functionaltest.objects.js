@@ -12,6 +12,7 @@ let todoObjects = {
     editingMode: '.todo-list > .editing',
     enterButton: '{enter}',
     allTab: 'All',
+    toggleAll: '.toggle-all',
 };
 
 export default todoObjects;
