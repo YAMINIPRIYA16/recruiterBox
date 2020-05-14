@@ -39,6 +39,6 @@ Test cases to be covered at different levels of testing :
 
 
 # How to run test?
-- npm 
+- npm install
 - npm test
 - cypress will open click on the spec file to run it.
