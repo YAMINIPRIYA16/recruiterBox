@@ -6,7 +6,7 @@ Test cases to be covered at different levels of testing
 
 -   verify whether the checkbox is present for every item.
 -   Verify whether the input text field is visible and rendered.
--   Verify whether the Close button is present on hvering of each item.
+-   Verify whether the Close button is present on hovering of each item.
 -   Verify whether the strikeout effect is seen when the item is marked/checked.
 
 # Integration tests
